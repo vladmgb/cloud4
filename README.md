@@ -9,6 +9,19 @@
 - Задать время начала резервного копирования — 23:59.
 - Включить защиту кластера от непреднамеренного удаления.
 - Создать БД с именем netology_db, логином и паролем.
+<br>
+  <img width="817" height="595" alt="image" src="https://github.com/user-attachments/assets/4f747ea3-6b88-4c4d-8a21-cacd30956afe" />
+<br>
+<img width="1232" height="225" alt="image" src="https://github.com/user-attachments/assets/459f5719-d0ba-4ef4-b368-e6c6765440ce" />
+<br>
+<img width="511" height="214" alt="image" src="https://github.com/user-attachments/assets/02b2f52d-31bc-42da-aa11-ffdc9b5ee960" />
+<br>
+<img width="706" height="214" alt="image" src="https://github.com/user-attachments/assets/460dcc37-9c81-48f5-8a86-07e3acf1abc5" />
+<br>
+<img width="585" height="597" alt="image" src="https://github.com/user-attachments/assets/6b553e3d-0b83-41d7-8edb-b6dc8417c5b3" />
+<br>
+<img width="587" height="221" alt="image" src="https://github.com/user-attachments/assets/7e8ee8a7-1b84-4ea3-b48c-dd6fdb311bef" />
+<br>
 
 2. Настроить с помощью Terraform кластер Kubernetes.
 - Используя настройки VPC из предыдущих домашних заданий, добавить дополнительно две подсети public в разных зонах, чтобы обеспечить отказоустойчивость.
@@ -17,6 +30,8 @@
 - Добавить возможность шифрования ключом из KMS, созданным в предыдущем домашнем задании.
 - Создать группу узлов, состояющую из трёх машин с автомасштабированием до шести.
 - Подключиться к кластеру с помощью kubectl.
+<br>
+
 
 *Запустить микросервис phpmyadmin и подключиться к ранее созданной БД.
 *Создать сервис-типы Load Balancer и подключиться к phpmyadmin. Предоставить скриншот с публичным адресом и подключением к БД.
