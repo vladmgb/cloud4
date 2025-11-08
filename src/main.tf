@@ -264,13 +264,13 @@ resource "yandex_kubernetes_node_group" "netology_node_group" {
     platform_id = "standard-v2"
 
     resources {
-      memory = 4
+      memory = 2
       cores  = 2
     }
 
     boot_disk {
-      type = "network-ssd"
-      size = 64
+      type = "network-hdd"
+      size = 10
     }
 
     scheduling_policy {
